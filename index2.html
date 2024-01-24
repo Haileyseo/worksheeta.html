@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+
+    @font-face {
+        font-family: 'Nunito';
+        src: url('Nunito-VariableFont_wght.ttf');
+        font-style: normal;
+    }
+    body{
+        font-family: 'Nunito', sans-serif;
+        background-color: beige
+        color: brown;
+    }
+    .articlebox{
+        max-width: 1000px;
+        width: 100%;
+        padding: 80px 80px;
+        background-color: blanchedalmond;
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 60px;
+        line-height: 2em;
+        font-weight: 400;
+        max-width: 600px;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        font-size: 25px;
+        line-height: 1em;
+        margin-bottom: 20px;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+
+    h3{
+        font-size: 20px;
+        line-height: 1em;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+    }
+
+    p{
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 15px;
+        line-height: 1.1em;
+    }
+
+    figure{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    figcaption{
+        font-size: 13px;
+        font-weight: 300;
+        margin-top: 5px;
+        color: grey;
+        line-height: 1.2em;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+        img{
+            width: 100%;
+
+        }
+
+        sup{
+            font-size: 12px;
+            color: rgb(229, 138, 185)
+        }
+        a{
+            color: grey;
+            font-size: 14px;
+        }
+
+       .footnote{
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 1em;
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        list-style: none;
+       }
+
+       .footnote li{
+        margin-top: 5px;
+        font-weight: 0;
+       }
+
+</style>
+
+<body>
+    <div class="articlebox">
+
+        <h1>
+            Tokyo
+        </h1>
+        <div class="sub-title">
+        <h2>
+            Geography and Government
+        </h2>
+        </div>
+        <p>
+            Something with a reference note attached.<sup><a href= "#footnote-1">[1]</a></p></sup>Second thing with a reference attached.<sup><a href= "#footnote-2">[2]</a></sup>
+        </p>
+        <p>
+            Within the administrative boundaries of Tokyo Metropolis are two island chains in the Pacific Ocean directly south: the Izu Islands, and the Ogasawara Islands, which stretch more than 1,000 km (620 mi) away from the mainland. Because of these islands and the mountainous regions to the west, Tokyo's overall population density figures far under-represent the real figures for the urban and suburban regions of Tokyo.
+        </p>
+        <figure>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/TokyoMetropolitanGovernmentOffice.jpg">
+            <figcaption>
+                The Tokyo Metropolitan Government Building
+            </figcaption>
+        </figure>
+
+        <p>
+            Since 2001, Tokyo consists of 62 municipalities: 23 special wards, 26 cities, 5 towns and 8 villages. Any municipality of Japan has a directly elected mayor and a directly elected assembly, each elected on independent four-year cycles. 23 of Tokyo's municipalities cover the area that had been Tokyo City until WWII, 30 remain today in the Tama area (former North Tama, West Tama and South Tama districts), 9 on Tokyo's outlying islands.
+        </p>
+        <p>
+            When Tokyo reached its current extent except for smaller border changes in 1893, it consisted of over 170 municipalities, 1 (by definition: district-independent) city, nine districts with their towns and villages, plus the island communities that had never part of ritsuryō districts. By 1953, the number of municipalities had dropped to 97. The current total of 62 was reached in 2001.
+        </p>
+        <div class="sub-title">
+            <h3>
+                Earthquakes
+            </h3>
+        </div>
+
+        <p>
+            Tokyo is near the boundary of three plates, making it an extremely active region for smaller quakes and slippage which frequently affect the urban area with swaying as if in a boat, although epicenters within mainland Tokyo (excluding Tokyo's 2,000 km (1,243 mi)–long island jurisdiction) are quite rare. It is not uncommon in the metro area to have hundreds of these minor quakes (magnitudes 4–6) that can be felt in a single year, something local residents merely brush off but can be a source of anxiety not only for foreign visitors but for Japanese from elsewhere as well. They rarely cause much damage (sometimes a few injuries) as they are either too small or far away as quakes tend to dance around the region. Particularly active are offshore regions and to a lesser extent Chiba and Ibaraki.
+        </p>
+
+        <ul class="footnote">
+            <li id="footnote-1">
+                <sup>[1]</sup> This is a footnote.
+            </li>
+            <li id="footnote-2">
+                <sup>[2]</sup> This is a second footnote.
+            </li>
+        </ul>
+    </div>
+    
+</body>
+</html>
